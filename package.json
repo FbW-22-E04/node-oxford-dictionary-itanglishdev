@@ -5,8 +5,10 @@
   "author": "Itamar Givon <itamar.givon.dev@gmail.com>",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "devDependencies": {
     "jest": "^26.6.3"
+    
   },
   "scripts": {
     "test": "jest"
@@ -20,5 +22,8 @@
     "type": "git",
     "url": "https://github.com/DigitalCareerInstitute/Node-OxFord-Dictionary",
     "id": 202131081
+  },
+  "dependencies": {
+    "axios": "^1.2.0"
   }
 }
